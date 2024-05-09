@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture of the Day</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <form id="apodForm" class="apod-form">
+            <label for="date">Enter a date on or before today</label>
+            <div class="form-input">
+                <input type="date" id="date" required class="formInput">
+                <button type="submit" class="button getPictureButton">Get Picture</button>
+            </div>
+        </form>
+
+        <div id="apodContainer"></div>
+
+        <div id="favoritesContainer">
+            <h2 class="favoritesHeading">Favorites</h2>
+        </div>
+    </div>
+
+</body>
+</html>
